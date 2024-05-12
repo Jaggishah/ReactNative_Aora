@@ -18,7 +18,7 @@ const CustomButton = ({
     rounded-xl min-h-[62px] justify-center items-center 
     ${containerStyles} ${ isLoading ? "opacity-50" : ""}`}>
       <Text className={`text-primary font-psemibold text-lg ${textStyles}`}>
-      {title}
+        {title}
         </Text>
     </TouchableOpacity>
   )
